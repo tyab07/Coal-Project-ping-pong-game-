@@ -157,16 +157,7 @@ Update the `lengthPl` word near the top:
 lengthPl: dw 5 ; try 4..8
 ```
 
-### Change winning score
 
-In `rightCollisionTrue` and `leftCollisionTrue`, modify the compare value:
-
-```asm
-cmp word[score1], 3 ; or 6 to match menu text
-cmp word[score2], 3 ; or 6
-```
-
-If you set it to `6`, also update `menu3` text to keep UI consistent.
 
 ### Adjust ball speed
 
@@ -198,16 +189,6 @@ Search for attribute constants like `0x4700`, `0x0F09`, `0x74B2` and adjust fore
 
 ---
 
-## 📸 Screenshots / GIFs
-
-Add images/GIFs here to showcase gameplay (optional):
-
-```
-assets/
-  screenshot-title.png
-  screenshot-gameplay.png
-  gameplay.gif
-```
 
 Reference them in this README after you commit.
 
@@ -215,7 +196,7 @@ Reference them in this README after you commit.
 
 ## 📜 License
 
-Choose a license for your GitHub repo (MIT is common for educational projects). Example:
+
 
 ```
 MIT License — Copyright (c) 2025 M. Tayyab & M. Ali
